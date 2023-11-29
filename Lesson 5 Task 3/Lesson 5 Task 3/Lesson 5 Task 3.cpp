@@ -8,7 +8,7 @@ int main()
     int a[10] = { 9,8,7,6,5,4,3,2,1,0 };
     int sum=0;
     for (int i = 0; i < 10; i++) {
-        if (i % 3!= 0) {
+        if (a[i] % 3!= 0) {
             sum += a[i];
         }
     }
