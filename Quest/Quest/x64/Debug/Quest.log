@@ -1,9 +1,2 @@
 ﻿  Quest.cpp
-C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Quest\Quest\Quest.cpp(12,14): error C2440: =: невозможно преобразовать "const char [4]" в "char"
-  C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Quest\Quest\Quest.cpp(12,14):
-  Не существует контекста, в котором такое преобразование возможно
-  
-C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Quest\Quest\Quest.cpp(18,16): error C2440: =: невозможно преобразовать "const char [8]" в "char"
-  C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Quest\Quest\Quest.cpp(18,16):
-  Не существует контекста, в котором такое преобразование возможно
-  
+  Quest.vcxproj -> C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Quest\x64\Debug\Quest.exe

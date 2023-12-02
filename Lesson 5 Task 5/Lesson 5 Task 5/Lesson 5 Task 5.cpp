@@ -15,14 +15,10 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
-    for (int i = 0; i < 11; i++) {
-        for (int j = 11; j > 0; j--) {
-            int c = a[i];
-            a[i] = a[j];
-            a[j] = c;
-            }
+    for (int i = 0; i < 11; i+=2) {
+        int b = a[i-1];
+        a[i - 1] = a[i];
+        a[i] = b;
         }
-for (int i = 0; i < 11; i++) {
-    cout << a[i] << " ";
-}
+for (int i = 0; i < 11; i++) cout << a[i] << " ";
 }
