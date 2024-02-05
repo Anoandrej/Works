@@ -1,8 +1,8 @@
 ﻿// Lesson 17 Task 2.
 
 #include <iostream>
-//#include<string>
-//#include<cstring>
+#include<string>
+#include<cstring>
 
 using namespace std;
 
@@ -10,26 +10,26 @@ class Person
 {
     int age;
 protected:
-	 string name;
-
-    /*Person(string name,int age)
-    {
-        this->name = name;
+    char* name[128];
+public:
+    Person(int age, char* name) {
         this->age = age;
-    }*/
-	void display() {
+    };
+
+    void display() {
         cout << "Имя: " << name << " Возраст: " << age << endl;
     }
 };
 
-class Employee :protected Person
+class Employee :public Person
 {
     string company;
-
+public:
     Employee(string company)
     {
         this->company = company;
     }
+    
     void showEmployeeName() {
         cout << "Имя: " << name << " Компания: " << company << endl;
     }
@@ -40,7 +40,8 @@ int main()
 {
 	system("chcp 1251>nul");
 
-    string name, company;
+    char name[128];
+    string company;
     int age;
 
     cout << "Имя сотрудника: \n";
@@ -48,7 +49,7 @@ int main()
     cout<<"Возраст сотрудника: \n";
     cin >> age;
 
-    Person firstPerson(name, age);
+    Person firstPerson(age, *name);
     firstPerson.display();
 
     cout << "Имя сотрудника: \n";
@@ -58,6 +59,7 @@ int main()
     cout << "Название компании: \n";
     cin >> company;
 
-    Employee firstEmploy(name, age, company);
+    Employee firstEmploy(company);
+   
     firstEmploy.showEmployeeName();
 }
