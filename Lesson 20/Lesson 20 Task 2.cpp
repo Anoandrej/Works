@@ -50,14 +50,14 @@ int main() {
 
     try {
         if (checkPassword(password)) {
-            std::cout << "Пароль : " << password << std::endl;
+            cout << "Пароль : " << password << endl;
         }
     }
     catch (MinLengthPasswordError& e) {
-        std::cout << e.what() << std::endl;
+        cout << e.what() << endl;
     }
     catch (NoSpecialCharactersError& e) {
-        std::cout << e.what() << std::endl;
+        cout << e.what() << endl;
     }
 
     return 0;
