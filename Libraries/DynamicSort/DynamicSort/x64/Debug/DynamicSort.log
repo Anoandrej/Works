@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  dllmain.cpp
+  DynamicSort.cpp
+C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Libraries\DynamicSort\DynamicSort\DynamicSort.cpp(5,5): warning C4273: DynamicSort: несовместимое связывание dll
+  (компиляция исходного файла "/DynamicSort.cpp")
+  C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Libraries\DynamicSort\DynamicSort\DynamicSort.h(9,32):
+  см. предыдущее определение "DynamicSort"
+  
+  Создание кода...
+     Создается библиотека C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Libraries\DynamicSort\x64\Debug\DynamicSort.lib и объект C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Libraries\DynamicSort\x64\Debug\DynamicSort.exp
+  DynamicSort.vcxproj -> C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Libraries\DynamicSort\x64\Debug\DynamicSort.dll
