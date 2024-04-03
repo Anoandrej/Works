@@ -1,0 +1,3 @@
+C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Browser\Browser\x64\Debug\Browser.vcxproj.AssemblyReference.cache
+C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Browser\Browser\x64\Debug\Browser.MyForm.resources
+C:\Users\ano-a\OneDrive\Документы\C++\Avenue\ДЗ\Browser\Browser\x64\Debug\Browser.vcxproj.GenerateResource.cache
